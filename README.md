@@ -114,4 +114,12 @@ ProofCloak service and are here for inspection and verification only. See
 ProofCloak is free during the open beta: one project and five protection jobs
 a month. It targets .NET 10 managed DLL and EXE files.
 
+A new profile starts with only "Rename internal symbols" ticked. To get the
+same result as this sample, also tick these three when you create your first
+profile:
+
+- Encrypt strings
+- Control-flow transformation
+- Anti-tamper checks
+
 [Protect your first .NET build free](https://proofcloak.com/en?utm_source=github&utm_medium=referral&utm_campaign=launch-v2&utm_content=sample-invoicedesk)
