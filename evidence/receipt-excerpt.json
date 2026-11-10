@@ -1,0 +1,39 @@
+{
+  "contract": "cilsentinel.dev/protection-receipt/v2",
+  "jobId": "job_BxSfmRUgkYbMMF1T",
+  "attempt": 1,
+  "issuedAtUtc": "2026-11-10T16:49:40.218Z",
+  "engine": {
+    "channel": "beta",
+    "version": "0.1.0-alpha.333",
+    "jobContract": "cilsentinel.dev/cloud-protection-job/v1",
+    "sourceCommit": "e9fb65a44e577ec8ea0c5d3302d91483e0c9cee8",
+    "artifactSha256": "eb6a37b957547ddddb53ab286b547b1b4a8b702770ea79450ec6e4dfc4ba788f",
+    "manifestSha256": "d42b13a3dbc9f7726dd5af8576836c38f43d463fb694c45a34e953777d12b020"
+  },
+  "input": {
+    "length": 11264,
+    "sha256": "D0199FD0170D9BBB7B9E9A0237EA7E294A6E2C1324D6B8FFAC60099C5570997A"
+  },
+  "outputs": [
+    {
+      "kind": "protected-binary",
+      "name": "InvoiceDesk.dll",
+      "length": 19968,
+      "sha256": "dec4e183bad130bc588b44b1969c95022effc3b183a49bbbc9d1d7c4474a1b69"
+    },
+    {
+      "kind": "inspection-before",
+      "name": "inspection-before.json",
+      "length": 611,
+      "sha256": "a64d756ad07a9df7c001bc0d01405c6775e7383f72a22b00046a1f85d5c65aa1"
+    },
+    {
+      "kind": "inspection-after",
+      "name": "inspection-after.json",
+      "length": 679,
+      "sha256": "5ea43b9eefc7d6f06c1548f67251122cd5571662472e203c442376432e10fc1d"
+    }
+  ],
+  "_note": "Excerpt of a real ProofCloak execution receipt. Organization, project, worker ids and the signed broker attestation are omitted."
+}

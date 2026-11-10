@@ -1,0 +1,6 @@
+*.dll binary
+evidence/* -text
+decompiled/* text eol=lf
+*.cs text eol=lf
+*.ps1 text eol=lf
+*.md text eol=lf
